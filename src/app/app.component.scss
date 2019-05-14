@@ -1,0 +1,15 @@
+$font-stack:    Helvetica, sans-serif;
+$primary-color:red;
+$hover-color:green;
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+}
+
+a{
+    color: $primary-color;
+}
+
+a:hover{
+    color: $hover-color;
+}

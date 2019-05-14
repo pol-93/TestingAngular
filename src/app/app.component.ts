@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'cf-root',
+  selector: 'cf-raiz',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
