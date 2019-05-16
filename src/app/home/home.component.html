@@ -1,0 +1,10 @@
+<p>
+ Estic aprenent {{ interpolacion }}
+</p>
+<a [href]="url"> Curso de angular </a>
+<a href="{{url}}"> Dos formes de link </a>
+
+<button [disabled]="activo" (click)="myfunction()"> Activado </button>
+<button [disabled]="!activo"> Desactivado </button>
+
+<button (click)="intercambiar()"> Intercambiar </button>
