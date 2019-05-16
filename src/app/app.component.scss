@@ -4,12 +4,14 @@ $hover-color:green;
 body {
   font: 100% $font-stack;
   color: $primary-color;
+  margin:0px !important;
 }
-
+html{
+    margin:0px !important;
+}
 a{
     color: $primary-color;
 }
-
 a:hover{
     color: $hover-color;
 }
