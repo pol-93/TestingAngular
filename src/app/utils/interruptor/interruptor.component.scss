@@ -1,0 +1,31 @@
+a{
+    color:red;
+    
+}
+p{
+    text-align:center;
+    display:block;
+}
+button{
+    margin:10px auto;
+    display:table;
+    background-color:red;
+    color:#fff;
+    transition:all 2s ease-in-out;
+}
+div{
+    margin-top:20px;
+    width:500px;
+    margin:20px auto;
+    border:2px solid red;
+    transition:all 2s ease-in-out;
+}
+
+.esactivo{
+    border:2px solid green;
+}
+
+.esactivo button{
+    background-color:green;
+    color:#fff;
+}

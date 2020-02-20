@@ -1,0 +1,24 @@
+<p>
+  terminal works!
+</p>
+<h3>createElement(), createText(), appendChild()</h3>
+<ul (click) = "onClick()" #abcd>
+  <li>Click here to add li</li>
+</ul> 
+<div class="terminal">
+  <div class="top-bar"></div>
+  <div class="content-bar">
+    <form>
+      <div #parent class="form-group">
+        <div class="input-wrapper">
+          <div class="title">cristina@sentences-generator:~ $</div>
+          <input #mainInput [(ngModel)]="form.command" (input)="keyPress($event)" autocomplete="off"  name="command" type="email" class="form-control" id="command" aria-describedby="emailHelp">
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+
+
+
+

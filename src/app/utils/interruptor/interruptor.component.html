@@ -1,0 +1,6 @@
+<br>
+<div [class.esactivo]="activo">
+<button (click)="intercambiar()"> cambia el interruptor </button>
+<p *ngIf="activo; else inactivo"> Activo!! </p>
+<ng-template #inactivo><p>Inactivo!!</p>  </ng-template>
+</div>

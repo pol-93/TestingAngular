@@ -8,6 +8,10 @@ import { Component, OnInit } from '@angular/core';
 export class HeaderComponent implements OnInit {
   user = 'Pol';
   menu = 'My menu'; 
+  operation = ' Generate Task ';
+  notfound = ' Go to notfound ';
+  terminal = ' Go to Terminal Version'
+
   constructor() { }
 
   ngOnInit() {
