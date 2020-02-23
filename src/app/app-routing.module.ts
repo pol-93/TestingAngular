@@ -3,6 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { NotFoundComponent } from './not-found-module/not-found/not-found.component';
 import { HomeComponent } from './home/home.component';
 import { TerminalComponent } from './terminal/terminal.component';
+import { TerminalTestParentComponent } from './terminal-test-parent/terminal-test-parent.component';
 
 const routes: Routes = [
   {
@@ -12,6 +13,10 @@ const routes: Routes = [
   {
     path: 'terminal-version',
     component: TerminalComponent
+  },
+  {
+    path: 'terminal-version-test',
+    component: TerminalTestParentComponent
   },
   {
     path: 'not-found',

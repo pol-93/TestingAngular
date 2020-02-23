@@ -10,6 +10,8 @@ import { HomeComponent } from './home/home.component';
 import { UtilsModule } from './utils/utils.module';
 import { NotFoundModuleModule } from './not-found-module/not-found-module.module';
 import { TerminalComponent } from './terminal/terminal.component';
+import { TerminalTestParentComponent } from './terminal-test-parent/terminal-test-parent.component';
+import { TerminalTestChildComponent } from './terminal-test-child/terminal-test-child.component';
 
 @NgModule({
   imports: [
@@ -24,7 +26,9 @@ import { TerminalComponent } from './terminal/terminal.component';
     AppComponent,
     HeaderComponent,
     HomeComponent,
-    TerminalComponent
+    TerminalComponent,
+    TerminalTestParentComponent,
+    TerminalTestChildComponent
   ],
   providers: [],
   bootstrap: [AppComponent]

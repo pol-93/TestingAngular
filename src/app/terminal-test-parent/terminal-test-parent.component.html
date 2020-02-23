@@ -1,0 +1,8 @@
+<div class="terminal">
+  <div class="top-bar"></div>
+  <div class="content-bar">
+    <form>
+      <cf-terminal-test-child (input)="keyPress($event)" *ngFor="let i of arr"></cf-terminal-test-child>
+    </form>
+  </div>
+</div>
