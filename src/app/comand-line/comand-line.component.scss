@@ -1,0 +1,24 @@
+input#command{
+    color:#fff;
+    background-color:black;
+    border:0px solid transparent;
+    padding-left:260px;
+    position:relative
+}
+
+.input-wrapper{
+    display:block;
+    position:relative
+}
+
+.input-wrapper .title{
+    display: block;
+    position: absolute;
+    left: 10px;
+    top: 0;
+    right: calc(100% - 260px);
+    color: lime;
+    z-index: 30;
+    bottom: 0;
+    line-height: 38px;
+}

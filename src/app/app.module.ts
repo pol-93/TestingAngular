@@ -12,6 +12,7 @@ import { NotFoundModuleModule } from './not-found-module/not-found-module.module
 import { TerminalComponent } from './terminal/terminal.component';
 import { TerminalTestParentComponent } from './terminal-test-parent/terminal-test-parent.component';
 import { TerminalTestChildComponent } from './terminal-test-child/terminal-test-child.component';
+import { ComandLineComponent } from './comand-line/comand-line.component';
 
 @NgModule({
   imports: [
@@ -28,7 +29,8 @@ import { TerminalTestChildComponent } from './terminal-test-child/terminal-test-
     HomeComponent,
     TerminalComponent,
     TerminalTestParentComponent,
-    TerminalTestChildComponent
+    TerminalTestChildComponent,
+    ComandLineComponent
   ],
   providers: [],
   bootstrap: [AppComponent]
